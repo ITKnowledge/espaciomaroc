@@ -1,0 +1,8 @@
+// Color names definitions
+// https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F
+
+$brand: #30b7d3;
+
+.brand              { color: $brand; }
+
+.bg-brand           { background-color: $brand; }
