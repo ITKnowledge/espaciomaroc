@@ -1,19 +1,8 @@
-<footer class="pa4 pa5-l black-70 bt b--black-10">
-  <div class="fl w-100">
-    <div class="fr w-100 w-50-ns tc tr-ns">
-      <p class="f7 black-70 dib pr3-ns mb3">
-        <a href="#" title="Terms & Conditions" class="f6 ttu db dib-ns ph2 link pointer mid-gray dim">الشروط والأحكام</a>
-        <a href="#" title="Privacy Policy" class="f6 ttu db dib-ns ph2 link pointer mid-gray dim">سياسة الخصوصية</a>
-        <a href="#" title="About {{ site.name }}" class="f6 ttu db dib-ns ph2 link pointer mid-gray dim">عن الموقع</a>
-        <a href="#" title="{{ site.name }} Blog" class="f6 ttu db dib-ns ph2 link pointer mid-gray dim">المدونة</a>
-      </p>
-    </div>
-    <div class="fr w-100 w-50-ns tc tl-ns">
-      {% for socialmedia in site.data.socialmedia reversed %}
-        <a href="{{ socialmedia.url }}" class="w2 link pointer dim dib mr1" title="{{ socialmedia.name }}">
-          <img src="{{ socialmedia.picture }}" alt="{{ socialmedia.name }}">
-        </a>
-      {% endfor %}
-    </div>
+<footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+  <small class="f6 db tc">© 2017 <b class="ttu">Espacio SARL</b></small>
+  <div class="tc mt3">
+    <a href="/language/" title="Language" class="f6 dib ph2 link mid-gray dim">Language</a>
+    <a href="/terms/" title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
+    <a href="/privacy/" title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
   </div>
 </footer>

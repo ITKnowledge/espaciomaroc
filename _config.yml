@@ -4,6 +4,9 @@ description: > #ESPACIO assure l’accompagne­ment et la concrétisation de vos
 baseurl: ""
 url: "http://espaciomaroc.ma"
 
+# Cloudinary assets
+logo: https://res.cloudinary.com/unik/image/upload/v1487714904/projects/espacio/logo.png
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
