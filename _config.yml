@@ -1,5 +1,5 @@
 name: Espacio
-email: ahlan@barmej.com
+email: kbellioum@itknowledgema.com
 description: > #ESPACIO assure l’accompagne­ment et la concrétisation de vos projets d’aménagement, quel que soit l’am­pleur des chantiers.
 baseurl: ""
 url: "http://espaciomaroc.ma"
@@ -19,3 +19,5 @@ gems:
   - jekyll-redirect-from
 
 exclude: ['Rakefile', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'bin']
+
+port:    4001
