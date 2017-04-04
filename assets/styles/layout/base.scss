@@ -47,3 +47,21 @@ body {
 .logo-active:hover {
   opacity: 1;
 }
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: grayscale(black);
+    // #2098D1;
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
